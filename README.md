@@ -12,4 +12,4 @@ azeydev
 
 Regards -AzeY
 
-# Kagura Website 2024 - Made by AzeY
+Kagura Website 2024 - Made by AzeY
