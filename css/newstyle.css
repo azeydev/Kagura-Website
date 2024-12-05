@@ -1,0 +1,78 @@
+
+.mainpanoramic {
+    font-size: 24;
+    animation: slide 60s linear infinite;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35) ), url('images/image.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:repeat-x;
+    backdrop-filter: blur(10px);
+}
+
+.bodypanoramicdl {
+    font-size: 24;
+    animation: slide 60s linear infinite;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35) ), url('images/panorama1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:repeat-x;
+    backdrop-filter: blur(10px);
+}
+
+.bodypanoramicdlv1 {
+    font-size: 24;
+    animation: slide 60s linear infinite;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35) ), url('images/panoramav1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    backdrop-filter: blur(10px);
+}
+
+.bodypanoramicdlv2 {
+    font-size: 24;
+    animation: slide 60s linear infinite;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35) ), url('images/panoramav2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    backdrop-filter: blur(10px);
+}
+
+.bodypanoramicdlv3 {
+    font-size: 24;
+    animation: slide 60s linear infinite;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35) ), url('images/panoramav3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    backdrop-filter: blur(10px);
+}
+
+
+.panorama {
+    background-image: url("");
+    background-repeat:repeat-x;
+    background-size: cover;
+    background-attachment: fixed;
+    animation: slide 30s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 156.5%
+    }
+  }
